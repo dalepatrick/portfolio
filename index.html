@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- favicon  -->
+  <link rel="shortcut icon" href="http://MY-CDN.example.com/favicon.ico" />
+
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <section class="navbar">
+    <nav class="navbar navbar-dark text-bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Patrick Laguna</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+
+  </section>
+
+
+  <!-- main section -->
+  <section class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 p-5" data-aos="fade-down" data-aos-duration="3000">
+          <h3><small>Hello, I'm</small> <br>
+            Patrick Dale Laguna
+          </h3>
+          <h6>Fullstack Web Developer</h6>
+          <input type="button" value="My Work" class="btn1 mt-4 rounded">
+          <input type="button" value="Hire ME" class="btn2 btn-dark mt-4 rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="received_221760403991609.jpeg" data-aos="fade-right" data-aos-duration="2000"
+            class="wow img-fluid custom-size bounceInUp" alt="">
+        </div>
+        <div class="col-md-7" data-aos="fade-left" data-aos-duration="2000">
+          <h1 style="color: white;">About me</h1>
+          <p style="color: white;">Fullstack Web Developer</p>
+          <p class="pt-3" style="color: white;">I am <small class="fw-bold" style="color: black;"> Patrick Dale
+              Laguna</small>, a newly certified Fullstack Web
+            developer from KodeGo,
+            skilled in HTML, CSS, and JavaSript.
+            Also skilled in CSS Frameworks like Bootstrap and JavaScript libraries such as React.Js.</p>
+
+          <div class="progress">
+            <div class="pro-value1">
+              <p>HTML / CSS <span class="text-white float-end">90%</span></p>
+            </div>
+          </div>
+
+          <div class="progress my-3">
+            <div class="pro-value2">
+              <p>JavaScript <span class="text-white float-end">80%</span></p>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="pro-value3">
+              <p>BOOTSTRAP <span class="text-white float-end">50%%</span></p>
+            </div>
+          </div>
+
+          <div class="progress my-3">
+            <div class="pro-value4">
+              <p>PHP / MySQL <span class="text-white float-end">45%</span></p>
+            </div>
+          </div>
+          <input type="button" class="btn1 mt-5" value="Download C.V">
+          <input type="button" class="btn2 mt-5" value="Contact Me">
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <!-- Service -->
+  <section class="service py-5 bg-light" id="services">
+    <div class="container py-5">
+      <h1 class="text-center pb-5">Services</h1>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card text-center" data-aos="fade-right" data-aos-duration="2000">
+            <div class="card-body">
+              <div class="circle">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h4 class="fw-bold pb-2 text-center pb-2">Development</h4>
+              <p>Create visually appealing and user-friendly websites using HTML, CSS, and JavaScript. Design
+                and implement the user interface, layout, and navigation of websites.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card text-center" data-aos="fade-right" data-aos-duration="2000">
+            <div class="card-body">
+              <div class="circle">
+                <i class="fa-brands fa-phoenix-framework"></i>
+              </div>
+              <h4 class="fw-bold pb-2 text-center pb-2">Front-end Frameworks</h4>
+              <p>Utilize popular Front-end frameworks such as Bootstrap, Foundation, or CSS to expedite development and
+                enhance the websites's responsiveness and aesthetics.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card text-center" data-aos="fade-right" data-aos-duration="2000">
+            <div class="card-body">
+              <div class="circle">
+                <span><i class="fas fa-desktop"></i></span>
+              </div>
+              <h4 class="fw-bold pb-2 text-center pb-2">Web Design</h4>
+              <p> Develop websites that adapt and display properly on different devices and screen sizes, including
+                desktops, tablets, and mobile devices.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card text-center" data-aos="fade-left" data-aos-duration="2000">
+            <div class="card-body">
+              <div class="circle">
+                <i class="fa-solid fa-mobile"></i>
+              </div>
+              <h4 class="fw-bold pb-2 text-center pb-2">Fully Responsive</h4>
+              <p>Provide fully responsive web design and development services, ensuring that your website looks and
+                functions flawlessly across all devices and screen sizes. From desktop computers to tablets and mobile
+                phones, your website will automatically adapt and provide an optimal user experience, maximizing
+                engagement and conversions.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card text-center" data-aos="fade-left" data-aos-duration="2000">
+            <div class="card-body">
+              <div class="circle">
+                <i class="fa-solid fa-people-carry-box"></i>
+              </div>
+              <h4 class="fw-bold pb-2 text-center pb-2">Branding</h4>
+              <p>Unlock the full potential of your brand with my comprehensive branding services. From crafting
+                captivating visual identities to developing compelling brand stories, specialize in creating unique and
+                impactful brand experiences that resonate with your target audience and leave a lasting impression.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card text-center" data-aos="fade-left" data-aos-duration="2000">
+            <div class="card-body">
+              <div class="circle">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <h4 class="fw-bold pb-2 text-center pb-2">Collaboration</h4>
+              <p>Utilize version control systems like Git to manage codebase and collaborate with team members
+                effectively. Implement branching and merging strategies to streamline collaboration and code management.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- project -->
+  <section class="project" id="project">
+    <div class="container">
+      <h1 class="text-center pt-4" style="color: white;">Projects</h1>
+      <div class="row py-5">
+        <div class="col-md-6 mb-3">
+          <div class="card" data-aos="fade-right" data-aos-duration="2000">
+            <a href="https://project2-lovat.vercel.app/" style="text-decoration: none; color: black;">
+              <img src="project2.png" class="img-fluid" alt="">
+              <small class="fw-bold pt-2 text-center">SpiceSavvy | Frontend Developer</small>
+              <h5 class="fw-bold pt-3 ms-3">
+                Developed a responsive SpiceSavvy website using HTML, CSS, and JavaScript.
+                <br>
+                <br>
+                Implemented product listing, search functionality, shopping cart, and checkout process.
+              </h5>
+              <div class="text-center pt-3">
+                <button class="btn btn-dark mb-3">Click me</button>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <div class="card" data-aos="fade-left" data-aos-duration="2000">
+            <a href="#" style="text-decoration: none; color: black;">
+              <img src="project3.png" class="img-fluid" alt="">
+              <small class="fw-bold pt-2 text-center">Curve | Frontend Developer</small>
+              <h5 class="fw-bold pt-3 ms-3 me">
+                Contributed in the development using the html and scc and move to react.js
+                <br>
+                <br>
+                participate in the development and contributing to debugging and troubleshooting the website to ensuring
+                high quality of this project.
+              </h5>
+              <div class="text-center pt-3">
+                <button class="btn btn-dark mb-3">Dont have a Live server sorry</button>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section class="contact p-5" id="contact">
+    <div class="container-fluid py-5">
+      <h1 class="text-center">Contact Me</h1>
+      <div class="row pt-5">
+        <div class="col-md-12 ms-auto">
+          <div class="row text-center">
+            <div class="col-md-4">
+              <div class="circle">
+                <span><i class="fas fa-location-dot"></i></span>
+              </div>
+              <h5>Address</h5>
+              <p>Pasong Kawayan II General Trias Cavite</p>
+            </div>
+            <div class="col-md-4">
+              <div class="circle">
+                <span><i class="fas fa-envelope"></i></span>
+              </div>
+              <h5>Email</h5>
+              <p>dalepatrick005@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+              <div class="circle">
+                <span><i class="fas fa-phone-alt"></i></span>
+              </div>
+              <h5>Number</h5>
+              <p>0992-817-6915</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-10 ms-auto pt-4">
+          <form action="">
+            <div class="form-row">
+              <div class="col-md-6">
+                <input type="text" class="form-control bg-light mb-3" placeholder="Name">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control bg-light mb-3" placeholder="LastName">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-10">
+                <textarea name="" id="" class="form-control bg-light" placeholder="message"></textarea>
+              </div>
+            </div>
+            <button class="btn3 btn-dark my-4">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="py-5 text-center">Copy Right 2023 © By Patrick Dale All Rights Reserved</p>
+  </footer>
+
+
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- fontawsome -->
+  <script src="https://kit.fontawesome.com/d2c024b251.js" crossorigin="anonymous"></script>
+  <!-- script -->
+  <script src="scrip.js"></script>
+</body>
+
+</html>
